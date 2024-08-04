@@ -1,0 +1,283 @@
+body {
+    text-align: center;
+    margin: 0;
+    color: #40515e;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 90px;
+    color: #66bfbf;
+    margin: 50px auto 10px;
+
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+p {
+    line-height: 30px;
+}
+
+hr {
+    width: 5%;
+    border: none;
+    border-bottom: dotted;
+    border-width: 5px;
+    margin: 100px auto;
+    border-color: #e3f5f5;
+}
+
+.top-box {
+    background-color: #e4f9f5;
+    padding-top: 50px;
+}
+
+.pro {
+    margin: 10px auto;
+
+}
+
+.cloud-img {
+    position: relative;
+    left: 30%
+}
+
+.cloud-img2 {
+    position: absolute;
+    left: 13%;
+}
+
+.myself {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.mobile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    float: left;
+    margin-right: 20px;
+}
+
+.software-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.contact-message {
+    margin: 50px;
+}
+
+.call {
+    text-decoration: none;
+    background-color: #11999e;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    background-color: #66bfbf;
+    padding: 50px 0px 5px;
+    color: #eaf6f6;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: auto 15px;
+    color: #11999e;
+}
+
+.footer-link:hover {
+    color: #eaf6f6;
+
+}
+
+.call:hover {
+    background-color: #eaf6f6;
+    color: #11999e;
+    border: 1px solid #11999e;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+        margin: 10px auto 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    hr {
+        border-width: 5px;
+        margin: 70px auto;
+        border-color: #e3f5f5;
+    }
+
+    .cloud-img {
+        width: 100px;
+        position: relative;
+        left: 40%;
+    }
+
+    .cloud-img2 {
+        width: 100px;
+        position: absolute;
+        left: 3%;
+    }
+
+    .mountain-img {
+        width: 450px
+    }
+
+    .myself {
+        width: 120px;
+        height: 120px;
+        margin-top: 30px;
+    }
+
+
+
+    .mobile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .software-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .skill-row {
+        width: 80%;
+        margin: 80px auto;
+        text-align: left;
+        line-height: 1;
+    }
+
+    .contact {
+        width: 70%
+    }
+
+    .contact-message {
+        margin: 40px;
+    }
+
+    .call {
+        font-size: 14px;
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width:468px) {
+
+    h1 {
+        font-size: 40px;
+        margin: 10px auto 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    hr {
+        border-width: 5px;
+        margin: 50px auto;
+        border-color: #e3f5f5;
+    }
+
+    .cloud-img {
+        width: 70px;
+    }
+
+    .cloud-img2 {
+        width: 70px;
+    }
+
+    .mountain-img {
+        width: 250px
+    }
+
+    .myself {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .intro{
+        width: 70%;
+        margin: auto;
+    }
+
+    .mobile-img {
+        width: 100px;
+        height: 100px;
+        float: none;
+    }
+
+    .software-img {
+        width: 100px;
+        height: 100px;
+        float: none;
+    }
+
+    .skill-row {
+        width: 70%;
+        margin: 50px auto ;
+        text-align: center;
+    }
+
+    .contact {
+        width: 70%
+    }
+
+    .contact-message {
+        margin: 40px;
+    }
+
+    .call {
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .cloud-img {
+        width: 70px;
+        position: relative;
+        left: 35%;
+    }
+
+}
